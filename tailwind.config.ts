@@ -11,6 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        themeRed: "#E60023",
+        themegray: {
+          dark: "#767676",
+          default: "#E9E9E9",
+          light: "#f1f1f1",
+        },
       },
     },
   },
