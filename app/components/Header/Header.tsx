@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 function Header() {
   return (
-    <div className="flex flex-row h-20 items-center p-4 justify-between">
+    <div className="sticky top-0 left-0 w-full flex flex-row h-20 items-center p-4 justify-between">
       <div className="p-2">
         <TextLogo />
       </div>

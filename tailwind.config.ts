@@ -17,6 +17,9 @@ const config: Config = {
           default: "#E9E9E9",
           light: "#f1f1f1",
         },
+        textColor: {
+          default: "#111111",
+        },
       },
     },
   },
