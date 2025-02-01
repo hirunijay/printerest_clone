@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "./Title";
-import ImageCard from "./ImageCard";
+import Title from "../Shared/Title";
+import ImageCard from "../Shared/ImageCard";
 import { Button } from "../Shared/Button";
 
 function ExploreSection() {

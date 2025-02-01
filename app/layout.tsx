@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Printerest clone",
+  title: "Printerest clone by hirunij",
   description: "Explore the best of printerest",
 };
 
