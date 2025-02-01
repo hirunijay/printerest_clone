@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 type ButtonProps = {
@@ -5,6 +6,7 @@ type ButtonProps = {
   btnColor: string;
   textColor?: string;
   btnIcon?: React.ReactNode;
+  hoverColor?: string;
 };
 
 export const Button = ({
@@ -12,6 +14,7 @@ export const Button = ({
   btnColor,
   textColor,
   btnIcon,
+  hoverColor,
 }: ButtonProps) => {
   return (
     <button
@@ -20,6 +23,10 @@ export const Button = ({
         color: textColor ? textColor : "white",
       }}
       className={`h-12 w-fit rounded-3xl p-4 flex items-center gap-2 font-semibold`}
+      onMouseEnter={(e) =>
+        (e.currentTarget.style.backgroundColor = hoverColor || btnColor)
+      }
+      onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = btnColor)}
     >
       {btnIcon ? btnIcon : null}
       {btnText}

@@ -25,7 +25,12 @@ function ExploreSection() {
         />
       </div>
       <div className="flex justify-center mt-4">
-        <Button btnColor="#E9E9E9" textColor="#111111" btnText="See more" />
+        <Button
+          btnColor="#E9E9E9"
+          textColor="#111111"
+          btnText="See more"
+          hoverColor="#00000026"
+        />
       </div>
     </div>
   );

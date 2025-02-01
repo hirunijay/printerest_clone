@@ -11,8 +11,13 @@ function Header() {
       </div>
       <Button btnText={"Explore"} btnColor={"black"} />
       <SearchBar />
-      <Button btnText={"Log in"} btnColor={"#E9E9E9"} textColor="black" />
-      <Button btnText={"Sign up"} btnColor={"#E60023"} />
+      <Button
+        btnText={"Log in"}
+        btnColor={"#E9E9E9"}
+        textColor="black"
+        hoverColor="#00000026"
+      />
+      <Button btnText={"Sign up"} btnColor={"#E60023"} hoverColor="#b60000" />
       <div className="hover:bg-themegray-light rounded-full">
         <MdKeyboardArrowDown color="#767676" size={25} />
       </div>

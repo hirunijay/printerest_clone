@@ -16,6 +16,7 @@ function PopularIdeas() {
             btnColor="#E9E9E9"
             textColor="#211922"
             btnIcon={<FaSearch color="#767676" />}
+            hoverColor="#00000026"
           />
         ))}
       </div>
